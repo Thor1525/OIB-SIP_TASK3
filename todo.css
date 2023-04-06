@@ -1,0 +1,54 @@
+
+
+.container{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(255, 253, 253);
+    padding: 30px;
+    background-color: #fafafa;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+
+.input-field{
+    text-align: center;
+}
+
+input[type="text"]{
+    color: #1583eb;
+    border: 10;
+    background-color: #ffffff;
+    max-width: 400px;
+}
+body{
+    height: 100vh;
+    background-color: #7d7c7c;   
+}
+
+#desc{
+    width: 400px;
+}
+
+#save{
+    width: 400px;
+    background-color: green;
+    
+}
+.todos li{
+    background-color: #faf7f7;
+    color: rgb(2, 37, 43);
+    font-weight: bold;
+}
+
+.delete{
+    cursor: pointer;
+    color: red;
+}
+
+.text{
+    color:rgb(0, 0, 0)
+}
+
